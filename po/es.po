@@ -4449,7 +4449,7 @@ msgstr "Ampliar hacia abajo"
 
 #. ../lisp/sawfish/wm/menus.jl
 msgid "Pack left"
-msgstr "Mover a la izqiuerda"
+msgstr "Mover a la izquierda"
 
 #. ../lisp/sawfish/wm/menus.jl
 msgid "Pack right"
