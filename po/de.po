@@ -3488,11 +3488,8 @@ msgid "Window Effects"
 msgstr "Fenster Effekte"
 
 #. ../lisp/sawfish/wm/prg/compton.jl
-msgid ""
-"!!! Install compton and restart sawfish to use transparency in sawfish. !!!"
-msgstr ""
-"!!! Installiere compton und starte Sawfish neu um Fenstereffekte zu erhalten "
-"!!!"
+msgid "!!! Install compton or picom and restart sawfish to use transparency in sawfish. !!!"
+msgstr "!!! Installiere compton oder picom und starte Sawfish neu um Fenstereffekte zu erhalten !!!"
 
 #. ../lisp/sawfish/wm/prg/compton.jl
 msgid "Enable opacity."

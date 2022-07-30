@@ -5856,7 +5856,7 @@ msgstr "ウィンドウ(_W)"
 
 #. ../lisp/sawfish/wm/prg/compton.jl
 msgid ""
-"!!! Install compton and restart sawfish to use transparency in sawfish. !!!"
+"!!! Install compton or picom and restart sawfish to use transparency in sawfish. !!!"
 msgstr ""
 
 #. ../lisp/sawfish/wm/prg/compton.jl

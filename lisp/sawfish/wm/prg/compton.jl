@@ -45,9 +45,9 @@
   (defgroup window-effects "Window Effects"
     :group appearance)
 
-  (if (not (program-exists-p "compton"))
+  (if (not (or (program-exists-p "compton") (program-exists-p "picom")))
       (defcustom opacity-introduction nil
-        "!!! Install compton and restart sawfish to use transparency in sawfish. !!!"
+        "!!! Install compton or picom and restart sawfish to use transparency in sawfish. !!!"
         :type (label " ")
         :group (appearance window-effects))
 
@@ -245,7 +245,7 @@
       :type (number 0 100 85 1)
       :after-set (lambda () (update-opacity 'notify)))
 
-    (defcustom compton-extra-args "" "Extra arguments to compton."
+    (defcustom compton-extra-args "" "Extra arguments to compton/picom."
       :depends opacity-enable
       :group (appearance window-effects)
       :type string)
