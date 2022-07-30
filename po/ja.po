@@ -5987,7 +5987,7 @@ msgid "Opacity notify (Default 85)."
 msgstr ""
 
 #. ../lisp/sawfish/wm/prg/compton.jl
-msgid "Extra arguments to compton."
+msgid "Extra arguments to compton/picom."
 msgstr ""
 
 #. ../lisp/sawfish/wm/menus.jl
